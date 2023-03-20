@@ -1,6 +1,7 @@
-package algorithmes.test;
+package algorithmes.testArraylist;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class Main
@@ -12,11 +13,13 @@ public class Main
         languages.add("Java");
         languages.add("C++");
         languages.add("Python");
+
+        // System.out.println(languages.get(2));
+        Collections.sort(languages);
         for (String lang : languages)
         {
             System.out.println(lang);
         }
-        languages.add(0, "toto");
 
     }
 }
