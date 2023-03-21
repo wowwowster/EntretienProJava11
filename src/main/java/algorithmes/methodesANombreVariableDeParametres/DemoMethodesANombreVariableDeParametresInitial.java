@@ -20,12 +20,7 @@ public class DemoMethodesANombreVariableDeParametresInitial {
 
         }
     private static int mini (int...values) {
-        int valeur=values[0];
-        for (int index=0;index<values.length-1; index++) {
-            if(values[index+1]<values[index]){
-                valeur=values[index+1];
-            }
-        }
-        return valeur;
+
+        return 0;
     }
 }
