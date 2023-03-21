@@ -1,11 +1,23 @@
 package algorithmes.labyrinthe;
 
-public class DemoLabyrinthe {
+public class DemoLabyrinthe
+{
+    public static void main(String[] args)
+    {
+        char[][] labyrinthe =
+        {
+            "######################################".toCharArray(),
+            "#S     #       #             #       #".toCharArray(),
+            "###### # # ### # ########### # ### # #".toCharArray(),
+            "#      # # # # # #         # #   #####".toCharArray(),
+            "### #### # # # # # # # # # # # #     #".toCharArray(),
+            "#      # # # # # # ######### ####### #".toCharArray(),
+            "# #### # # # # # #             #     #".toCharArray(),
+            "# #    # # # #   # ########### # # # #".toCharArray(),
+            "# ###### # # # # # # # # # # # # # # #".toCharArray(),
+            "#        #   # #           # #   # #D#".toCharArray(),
+            "######################################".toCharArray()
 
-    public static void main (String[] args) {
-
-
-
+        };
     }
-
 }
