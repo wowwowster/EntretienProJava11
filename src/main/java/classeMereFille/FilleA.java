@@ -1,13 +1,13 @@
 package classeMereFille;
 
-public class Fille extends Mere
+public class FilleA extends Mere
 {
     int x;
 
-    public static String staticVar = "staticVar fille";
-    public String instanceVar = "instanceVar fille";
+    public static String staticVar = "staticVar filleA";
+    public String instanceVar = "instanceVar filleA";
 
-    public Fille()
+    public FilleA()
     {
 
         String toto = "toto";
@@ -17,7 +17,7 @@ public class Fille extends Mere
 
     }
 
-    Fille(int x)
+    FilleA(int x)
     {
         this.x = x;
     }
