@@ -19,5 +19,13 @@ public class DemoLabyrinthe
             "######################################".toCharArray()
 
         };
+        for (char[] line : labyrinthe)
+        {
+            for (char c : line)
+            {
+                System.out.print(c);
+            }
+            System.out.println();
+        }
     }
 }
