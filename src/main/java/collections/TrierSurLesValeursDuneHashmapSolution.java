@@ -1,4 +1,4 @@
-package tris;
+package collections;
 
 import java.util.ArrayList;
 import java.util.Collections;
